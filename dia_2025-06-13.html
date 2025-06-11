@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Friday 13/06 – Fer’s Running Journey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://apis.google.com/js/api.js"></script>
+  <style>
+    body { font-family: sans-serif; background: #f5f5f5; padding: 1.5rem; }
+    h1 { color: #2c3e50; }
+    .box { background: white; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+    label { font-weight: bold; display:block; margin-top:1rem; }
+    input[type='number'] { padding: 5px; width: 100px; }
+    button { padding: 10px; background: #2c3e50; color: white; border: none; border-radius: 6px; cursor: pointer; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Friday 13/06</h1>
+  <div class="box">
+    <strong>Semana 1</strong><br/>
+    <p><strong>Actividad:</strong> Entrenamiento físico</p>
+    <p><strong>Detalles:</strong> Sesión estructurada con ejercicios específicos para el día 4.</p>
+    <p><strong>Desayuno:</strong> Avena con fruta<br/>
+       <strong>Comida:</strong> Pollo o tofu con arroz<br/>
+       <strong>Cena:</strong> Sopa de lentejas</p>
+    <p><em>“No cuentes los días, haz que los días cuenten. – Muhammad Ali”</em></p>
+  </div>
+
+  <div class="box">
+    <label for="kms">¿Cuántos kilómetros corriste hoy?</label>
+    <input type="number" id="kms" step="0.1" />
+    <button onclick="guardarKM()">Guardar</button>
+  </div>
+
+  <div class="box">
+    <p><strong>📸 Subir una foto de hoy</strong></p>
+    <button onclick="document.getElementById('photo').click()">Seleccionar foto</button>
+    <input type="file" id="photo" accept="image/*" style="display:none;" />
+  </div>
+
+  <a href="index.html">← Volver al inicio</a>
+
+  <script>
+    const CLIENT_ID = "23233073432-3tlfb0d6oueiu6fq13gn16p7lvn4c1r5.apps.googleusercontent.com";
+    const SCOPES = 'https://www.googleapis.com/auth/drive';
+
+    function guardarKM() {
+      const val = parseFloat(document.getElementById("kms").value);
+      if (!isNaN(val)) {
+        localStorage.setItem("kms_3", val);
+        alert("✅ Kilómetros guardados");
+      }
+    }
+
+    function initPhotoUpload() {
+      document.getElementById("photo").addEventListener("change", async function(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+        const metadata = {
+          'name': 'Friday_13/06.jpg',
+          'mimeType': file.type
+        };
+        const accessToken = gapi.auth.getToken().access_token;
+        const form = new FormData();
+        form.append('metadata', new Blob([JSON.stringify(metadata)], { type: 'application/json' }));
+        form.append('file', file);
+
+        const upload = await fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id', {
+          method: 'POST',
+          headers: new Headers({ 'Authorization': 'Bearer ' + accessToken }),
+          body: form
+        });
+        const fileData = await upload.json();
+
+        await fetch(`https://www.googleapis.com/drive/v3/files/${fileData.id}/permissions`, {
+          method: 'POST',
+          headers: {
+            'Authorization': 'Bearer ' + accessToken,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ role: "reader", type: "anyone" })
+        });
+
+        alert("✅ Foto subida");
+      });
+    }
+
+    gapi.load('client:auth2', () => {
+      gapi.auth2.init({ client_id: CLIENT_ID, scope: SCOPES }).then(() => {
+        gapi.auth2.getAuthInstance().signIn().then(initPhotoUpload);
+      });
+    });
+  </script>
+</body>
+</html>
