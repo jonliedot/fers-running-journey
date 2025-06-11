@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fer’s Running Journey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { margin: 0; font-family: sans-serif; background: #f0f4f8; }
+    #splash {
+      position: fixed; top:0; left:0; right:0; bottom:0;
+      background: url('https://images.unsplash.com/photo-1600185366221-6f5d94270bfa?auto=format&fit=crop&w=800&q=80') no-repeat center center;
+      background-size: cover;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      color: white; text-shadow: 1px 1px 3px black;
+      font-size: 1.8rem; z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <div id="splash">
+    <div>🏃‍♀️ ¡Vamos Fer!</div>
+    <div>Tu viaje empieza ahora.</div>
+  </div>
+
+  <script>
+    setTimeout(() => document.getElementById('splash').style.display = 'none', 2000);
+  </script>
+</body>
+</html>

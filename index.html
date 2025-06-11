@@ -6,276 +6,120 @@
   <title>Fer’s Running Journey</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #f5f7fa;
-      color: #2c3e50;
-    }
-    header {
-      background: #2c3e50;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-      font-size: 1.5rem;
-      letter-spacing: 0.5px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-      gap: 12px;
-      padding: 1rem;
-    }
-    .day {
-      background: white;
-      border-radius: 10px;
-      padding: 10px;
-      text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
-    }
-    .day:hover {
-      transform: scale(1.05);
-    }
-    .day a {
-      text-decoration: none;
-      color: #2c3e50;
-      font-weight: bold;
-      display: block;
-    }
-    .footer {
-      text-align: center;
-      font-size: 0.9rem;
-      padding: 1rem;
-      color: #888;
-    }
+    body { margin: 0; font-family: sans-serif; background: #f0f4f8; }
+    header { text-align: center; background: #2c3e50; color: white; padding: 1rem; }
+    .summary { text-align: center; font-size: 1.2rem; margin: 1rem 0; }
+    .calendar { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+    .day { background: white; padding: 10px; border-radius: 6px; width: 100px; text-align: center;
+           box-shadow: 0 0 5px rgba(0,0,0,0.1); cursor: pointer; }
+    .day:hover { background: #e0ffe0; }
+    .detail-card { max-width: 600px; margin: 2rem auto; background: white; padding: 1rem;
+                   border-radius: 10px; box-shadow: 0 0 6px rgba(0,0,0,0.1); }
+    .back-btn { margin-top: 1rem; padding: 0.5rem 1rem; background: #2c3e50; color: white;
+                border: none; border-radius: 6px; cursor: pointer; }
+    textarea, input[type="number"] { width: 100%; padding: 0.5rem; margin-top: 0.5rem; font-size: 1rem; border-radius: 5px; border: 1px solid #ccc; }
+    .link-album { display: block; text-align: center; margin: 1rem 0; font-weight: bold; }
   </style>
 </head>
 <body>
-  <header>Fer’s Running Journey</header>
-  <div class="grid">
+  <header>
+    <h1>Fer’s Running Journey</h1>
+  </header>
 
-    <div class="day">
-      <a href="dia_2025-06-10.html">10/06</a>
-    </div>
+  <div class="summary" id="summary-text"></div>
+  <a class="link-album" href="album.html">📷 Ver mi álbum de fotos</a>
+
+  <div id="calendar-view" class="calendar"></div>
+  <div id="detail-view" style="display:none;"></div>
+
+  <script>
+    let plan = [];
+
+    async function loadPlan() {
+      const response = await fetch('fers_running_journey_plan.json');
+      plan = await response.json();
+      renderCalendar();
+      updateTotalKM();
+    }
+
+    function renderCalendar() {
+      const calendar = document.getElementById('calendar-view');
+      calendar.innerHTML = '';
+      plan.forEach((day, index) => {
+        const box = document.createElement('div');
+        
+    box.className = 'day';
+    const isDescanso = day.actividad.toLowerCase().includes("descanso");
+    const icon = day.actividad.toLowerCase().includes("yoga") ? "🧘‍♀️" :
+                 day.actividad.toLowerCase().includes("fuerza") ? "💪" :
+                 day.actividad.toLowerCase().includes("natación") ? "🏊‍♀️" :
+                 day.actividad.toLowerCase().includes("tirada") ? "🏃‍♀️" :
+                 isDescanso ? "🌿" : "🏃‍♀️";
+    box.style.background = isDescanso ? '#d0f4c5' : '#cce6ff';
+    box.innerHTML = `<div style="font-size:1.4rem;">${icon}</div><strong>${day.fecha.split(" ")[1]}</strong><br>${day.fecha.split(" ")[0]}`;
     
-    <div class="day">
-      <a href="dia_2025-06-11.html">11/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-12.html">12/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-13.html">13/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-14.html">14/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-15.html">15/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-16.html">16/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-17.html">17/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-18.html">18/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-19.html">19/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-20.html">20/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-21.html">21/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-22.html">22/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-23.html">23/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-24.html">24/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-25.html">25/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-26.html">26/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-27.html">27/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-28.html">28/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-29.html">29/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-06-30.html">30/06</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-01.html">01/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-02.html">02/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-03.html">03/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-04.html">04/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-05.html">05/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-06.html">06/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-07.html">07/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-08.html">08/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-09.html">09/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-10.html">10/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-11.html">11/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-12.html">12/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-13.html">13/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-14.html">14/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-15.html">15/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-16.html">16/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-17.html">17/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-18.html">18/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-19.html">19/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-20.html">20/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-21.html">21/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-22.html">22/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-23.html">23/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-24.html">24/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-25.html">25/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-26.html">26/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-27.html">27/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-28.html">28/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-29.html">29/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-30.html">30/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-07-31.html">31/07</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-08-01.html">01/08</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-08-02.html">02/08</a>
-    </div>
-    
-    <div class="day">
-      <a href="dia_2025-08-03.html">03/08</a>
-    </div>
-    
-  </div>
-  <div class="footer">Hecho con ❤️ para Fer</div>
+        box.innerHTML = `<strong>${day.fecha.split(" ")[1]}</strong><br>${day.fecha.split(" ")[0]}`;
+        box.onclick = () => showDetails(index);
+        calendar.appendChild(box);
+      });
+    }
+
+    function showDetails(index) {
+      const day = plan[index];
+      const detail = document.getElementById('detail-view');
+      const notesKey = 'notes_' + index;
+      const kmKey = 'kms_' + index;
+      const savedNotes = localStorage.getItem(notesKey) || "";
+      const savedKMs = localStorage.getItem(kmKey) || "";
+
+      detail.style.display = 'block';
+      document.getElementById('calendar-view').style.display = 'none';
+
+      detail.innerHTML = `
+        <div class="detail-card">
+          <h2>${day.fecha} (${day.semana})</h2>
+          <p><strong>Actividad:</strong> ${day.actividad}</p>
+          <p><em>${day.detalles}</em></p>
+          <p><strong>Nutrición:</strong></p>
+          <ul>
+            <li>Desayuno: ${day.nutricion.desayuno}</li>
+            <li>Comida: ${day.nutricion.comida}</li>
+            <li>Cena: ${day.nutricion.cena}</li>
+          </ul>
+          <p><strong>Cita:</strong><br>${day.cita}</p>
+          <label>Notas del día:</label>
+          <textarea onchange="saveNotes(${index}, this.value)">${savedNotes}</textarea>
+          <label>KMs recorridos:</label>
+          <input type="number" value="${savedKMs}" onchange="saveKMs(${index}, this.value)" />
+          <button class="back-btn" onclick="backToCalendar()">← Volver</button>
+        </div>
+      `;
+    }
+
+    function saveNotes(index, value) {
+      localStorage.setItem('notes_' + index, value);
+    }
+
+    function saveKMs(index, value) {
+      localStorage.setItem('kms_' + index, value);
+      updateTotalKM();
+    }
+
+    function backToCalendar() {
+      document.getElementById('detail-view').style.display = 'none';
+      document.getElementById('calendar-view').style.display = 'flex';
+    }
+
+    function updateTotalKM() {
+      let total = 0;
+      for (let i = 0; i < plan.length; i++) {
+        const val = parseFloat(localStorage.getItem('kms_' + i));
+        if (!isNaN(val)) total += val;
+      }
+      document.getElementById('summary-text').textContent = `🚀 ¡Llevas ${total.toFixed(1)} km recorridos desde el 10 de junio! ¡Sigue así!`;
+    }
+
+    loadPlan();
+  </script>
 </body>
 </html>

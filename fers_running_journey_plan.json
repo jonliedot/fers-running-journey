@@ -1,0 +1,662 @@
+[
+  {
+    "fecha": "Tuesday 10/06",
+    "semana": "Semana 1",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de fuerza funcional de 45 min:\n\n**Fuerza tren inferior (30 min)**:\n- Sentadillas con peso corporal – 3x15\n- Zancadas alternas – 3x10 por pierna\n- Elevación de talones – 3x20\n- Step-up sobre banco – 3x10 por pierna\n\n**Core (15 min)**:\n- Plancha frontal – 3x30s\n- Plancha lateral – 2x30s por lado\n- Crunch con piernas arriba – 3x20\n- Bicicleta abdominal – 3x20\n\nEstiramiento: 5 minutos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello. – Charles Swindoll"
+  },
+  {
+    "fecha": "Wednesday 11/06",
+    "semana": "Semana 1",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Natación técnica, 1,000 m totales:\n\n- 200 m crawl suave\n- 4x50 m técnica de brazo con tabla\n- 4x50 m patada de crol con aletas (si disponible)\n- 4x25 m respiración bilateral\n- 200 m libre con buena técnica\n\nFinaliza con 5 min de estiramientos de hombros y espalda.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el valor para continuar. – Winston Churchill"
+  },
+  {
+    "fecha": "Thursday 12/06",
+    "semana": "Semana 1",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Haz lo que puedas, con lo que tengas, donde estés. – Theodore Roosevelt"
+  },
+  {
+    "fecha": "Friday 13/06",
+    "semana": "Semana 1",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de yoga completa (45 minutos):\n\n- Saludos al sol (3 repeticiones)\n- Posturas de fuerza (guerrero I, II)\n- Equilibrio (árbol, media luna)\n- Flexibilidad (pinza, torsión sentada)\n- Respiración guiada y relajación (5 minutos)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No cuentes los días, haz que los días cuenten. – Muhammad Ali"
+  },
+  {
+    "fecha": "Saturday 14/06",
+    "semana": "Semana 1",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Tirada larga de 8 km a ritmo controlado.\n\n- Inicia 1 km suave, luego mantener ritmo constante\n- Gel energético en el km 4 con agua\n- Último km: incrementa ritmo si hay energía\n- 10 min caminata ligera + estiramientos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La disciplina es el puente entre metas y logros. – Jim Rohn"
+  },
+  {
+    "fecha": "Sunday 15/06",
+    "semana": "Semana 1",
+    "actividad": "Descanso",
+    "detalles": "Descanso activo:\n\n- Caminata ligera de 30 minutos o paseo con mascota\n- Sesión corta de yoga (20 minutos): movilidad de caderas, columna, cuello\n- Respiración profunda (3 ciclos de 4x4x4)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No esperes. El tiempo nunca será justo. – Napoleon Hill"
+  },
+  {
+    "fecha": "Monday 16/06",
+    "semana": "Semana 1",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La energía y la persistencia conquistan todas las cosas. – Benjamin Franklin"
+  },
+  {
+    "fecha": "Tuesday 17/06",
+    "semana": "Semana 2",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de fuerza funcional de 45 min:\n\n**Fuerza tren inferior (30 min)**:\n- Sentadillas con peso corporal – 3x15\n- Zancadas alternas – 3x10 por pierna\n- Elevación de talones – 3x20\n- Step-up sobre banco – 3x10 por pierna\n\n**Core (15 min)**:\n- Plancha frontal – 3x30s\n- Plancha lateral – 2x30s por lado\n- Crunch con piernas arriba – 3x20\n- Bicicleta abdominal – 3x20\n\nEstiramiento: 5 minutos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Solo aquellos que se atreven a tener grandes fracasos terminan logrando grandes éxitos. – Robert F. Kennedy"
+  },
+  {
+    "fecha": "Wednesday 18/06",
+    "semana": "Semana 2",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Natación técnica, 1,000 m totales:\n\n- 200 m crawl suave\n- 4x50 m técnica de brazo con tabla\n- 4x50 m patada de crol con aletas (si disponible)\n- 4x25 m respiración bilateral\n- 200 m libre con buena técnica\n\nFinaliza con 5 min de estiramientos de hombros y espalda.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello. – Charles Swindoll"
+  },
+  {
+    "fecha": "Thursday 19/06",
+    "semana": "Semana 2",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el valor para continuar. – Winston Churchill"
+  },
+  {
+    "fecha": "Friday 20/06",
+    "semana": "Semana 2",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de yoga completa (45 minutos):\n\n- Saludos al sol (3 repeticiones)\n- Posturas de fuerza (guerrero I, II)\n- Equilibrio (árbol, media luna)\n- Flexibilidad (pinza, torsión sentada)\n- Respiración guiada y relajación (5 minutos)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Haz lo que puedas, con lo que tengas, donde estés. – Theodore Roosevelt"
+  },
+  {
+    "fecha": "Saturday 21/06",
+    "semana": "Semana 2",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Tirada larga de 9 km a ritmo controlado.\n\n- Inicia 1 km suave, luego mantener ritmo constante\n- Gel energético en el km 4 con agua\n- Último km: incrementa ritmo si hay energía\n- 10 min caminata ligera + estiramientos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No cuentes los días, haz que los días cuenten. – Muhammad Ali"
+  },
+  {
+    "fecha": "Sunday 22/06",
+    "semana": "Semana 2",
+    "actividad": "Descanso",
+    "detalles": "Descanso activo:\n\n- Caminata ligera de 30 minutos o paseo con mascota\n- Sesión corta de yoga (20 minutos): movilidad de caderas, columna, cuello\n- Respiración profunda (3 ciclos de 4x4x4)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La disciplina es el puente entre metas y logros. – Jim Rohn"
+  },
+  {
+    "fecha": "Monday 23/06",
+    "semana": "Semana 2",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No esperes. El tiempo nunca será justo. – Napoleon Hill"
+  },
+  {
+    "fecha": "Tuesday 24/06",
+    "semana": "Semana 3",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de fuerza funcional de 45 min:\n\n**Fuerza tren inferior (30 min)**:\n- Sentadillas con peso corporal – 3x15\n- Zancadas alternas – 3x10 por pierna\n- Elevación de talones – 3x20\n- Step-up sobre banco – 3x10 por pierna\n\n**Core (15 min)**:\n- Plancha frontal – 3x30s\n- Plancha lateral – 2x30s por lado\n- Crunch con piernas arriba – 3x20\n- Bicicleta abdominal – 3x20\n\nEstiramiento: 5 minutos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La energía y la persistencia conquistan todas las cosas. – Benjamin Franklin"
+  },
+  {
+    "fecha": "Wednesday 25/06",
+    "semana": "Semana 3",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Natación técnica, 1,000 m totales:\n\n- 200 m crawl suave\n- 4x50 m técnica de brazo con tabla\n- 4x50 m patada de crol con aletas (si disponible)\n- 4x25 m respiración bilateral\n- 200 m libre con buena técnica\n\nFinaliza con 5 min de estiramientos de hombros y espalda.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Solo aquellos que se atreven a tener grandes fracasos terminan logrando grandes éxitos. – Robert F. Kennedy"
+  },
+  {
+    "fecha": "Thursday 26/06",
+    "semana": "Semana 3",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello. – Charles Swindoll"
+  },
+  {
+    "fecha": "Friday 27/06",
+    "semana": "Semana 3",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de yoga completa (45 minutos):\n\n- Saludos al sol (3 repeticiones)\n- Posturas de fuerza (guerrero I, II)\n- Equilibrio (árbol, media luna)\n- Flexibilidad (pinza, torsión sentada)\n- Respiración guiada y relajación (5 minutos)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el valor para continuar. – Winston Churchill"
+  },
+  {
+    "fecha": "Saturday 28/06",
+    "semana": "Semana 3",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Tirada larga de 10 km a ritmo controlado.\n\n- Inicia 1 km suave, luego mantener ritmo constante\n- Gel energético en el km 5 con agua\n- Último km: incrementa ritmo si hay energía\n- 10 min caminata ligera + estiramientos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Haz lo que puedas, con lo que tengas, donde estés. – Theodore Roosevelt"
+  },
+  {
+    "fecha": "Sunday 29/06",
+    "semana": "Semana 3",
+    "actividad": "Descanso",
+    "detalles": "Descanso activo:\n\n- Caminata ligera de 30 minutos o paseo con mascota\n- Sesión corta de yoga (20 minutos): movilidad de caderas, columna, cuello\n- Respiración profunda (3 ciclos de 4x4x4)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No cuentes los días, haz que los días cuenten. – Muhammad Ali"
+  },
+  {
+    "fecha": "Monday 30/06",
+    "semana": "Semana 3",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La disciplina es el puente entre metas y logros. – Jim Rohn"
+  },
+  {
+    "fecha": "Tuesday 01/07",
+    "semana": "Semana 4",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de fuerza funcional de 45 min:\n\n**Fuerza tren inferior (30 min)**:\n- Sentadillas con peso corporal – 3x15\n- Zancadas alternas – 3x10 por pierna\n- Elevación de talones – 3x20\n- Step-up sobre banco – 3x10 por pierna\n\n**Core (15 min)**:\n- Plancha frontal – 3x30s\n- Plancha lateral – 2x30s por lado\n- Crunch con piernas arriba – 3x20\n- Bicicleta abdominal – 3x20\n\nEstiramiento: 5 minutos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No esperes. El tiempo nunca será justo. – Napoleon Hill"
+  },
+  {
+    "fecha": "Wednesday 02/07",
+    "semana": "Semana 4",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Natación técnica, 1,000 m totales:\n\n- 200 m crawl suave\n- 4x50 m técnica de brazo con tabla\n- 4x50 m patada de crol con aletas (si disponible)\n- 4x25 m respiración bilateral\n- 200 m libre con buena técnica\n\nFinaliza con 5 min de estiramientos de hombros y espalda.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La energía y la persistencia conquistan todas las cosas. – Benjamin Franklin"
+  },
+  {
+    "fecha": "Thursday 03/07",
+    "semana": "Semana 4",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Solo aquellos que se atreven a tener grandes fracasos terminan logrando grandes éxitos. – Robert F. Kennedy"
+  },
+  {
+    "fecha": "Friday 04/07",
+    "semana": "Semana 4",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de yoga completa (45 minutos):\n\n- Saludos al sol (3 repeticiones)\n- Posturas de fuerza (guerrero I, II)\n- Equilibrio (árbol, media luna)\n- Flexibilidad (pinza, torsión sentada)\n- Respiración guiada y relajación (5 minutos)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello. – Charles Swindoll"
+  },
+  {
+    "fecha": "Saturday 05/07",
+    "semana": "Semana 4",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Tirada larga de 11 km a ritmo controlado.\n\n- Inicia 1 km suave, luego mantener ritmo constante\n- Gel energético en el km 5 con agua\n- Último km: incrementa ritmo si hay energía\n- 10 min caminata ligera + estiramientos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el valor para continuar. – Winston Churchill"
+  },
+  {
+    "fecha": "Sunday 06/07",
+    "semana": "Semana 4",
+    "actividad": "Descanso",
+    "detalles": "Descanso activo:\n\n- Caminata ligera de 30 minutos o paseo con mascota\n- Sesión corta de yoga (20 minutos): movilidad de caderas, columna, cuello\n- Respiración profunda (3 ciclos de 4x4x4)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Haz lo que puedas, con lo que tengas, donde estés. – Theodore Roosevelt"
+  },
+  {
+    "fecha": "Monday 07/07",
+    "semana": "Semana 4",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No cuentes los días, haz que los días cuenten. – Muhammad Ali"
+  },
+  {
+    "fecha": "Tuesday 08/07",
+    "semana": "Semana 5",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de fuerza funcional de 45 min:\n\n**Fuerza tren inferior (30 min)**:\n- Sentadillas con peso corporal – 3x15\n- Zancadas alternas – 3x10 por pierna\n- Elevación de talones – 3x20\n- Step-up sobre banco – 3x10 por pierna\n\n**Core (15 min)**:\n- Plancha frontal – 3x30s\n- Plancha lateral – 2x30s por lado\n- Crunch con piernas arriba – 3x20\n- Bicicleta abdominal – 3x20\n\nEstiramiento: 5 minutos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La disciplina es el puente entre metas y logros. – Jim Rohn"
+  },
+  {
+    "fecha": "Wednesday 09/07",
+    "semana": "Semana 5",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Natación técnica, 1,000 m totales:\n\n- 200 m crawl suave\n- 4x50 m técnica de brazo con tabla\n- 4x50 m patada de crol con aletas (si disponible)\n- 4x25 m respiración bilateral\n- 200 m libre con buena técnica\n\nFinaliza con 5 min de estiramientos de hombros y espalda.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No esperes. El tiempo nunca será justo. – Napoleon Hill"
+  },
+  {
+    "fecha": "Thursday 10/07",
+    "semana": "Semana 5",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La energía y la persistencia conquistan todas las cosas. – Benjamin Franklin"
+  },
+  {
+    "fecha": "Friday 11/07",
+    "semana": "Semana 5",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de yoga completa (45 minutos):\n\n- Saludos al sol (3 repeticiones)\n- Posturas de fuerza (guerrero I, II)\n- Equilibrio (árbol, media luna)\n- Flexibilidad (pinza, torsión sentada)\n- Respiración guiada y relajación (5 minutos)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Solo aquellos que se atreven a tener grandes fracasos terminan logrando grandes éxitos. – Robert F. Kennedy"
+  },
+  {
+    "fecha": "Saturday 12/07",
+    "semana": "Semana 5",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Tirada larga de 12 km a ritmo controlado.\n\n- Inicia 1 km suave, luego mantener ritmo constante\n- Gel energético en el km 6 con agua\n- Último km: incrementa ritmo si hay energía\n- 10 min caminata ligera + estiramientos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello. – Charles Swindoll"
+  },
+  {
+    "fecha": "Sunday 13/07",
+    "semana": "Semana 5",
+    "actividad": "Descanso",
+    "detalles": "Descanso activo:\n\n- Caminata ligera de 30 minutos o paseo con mascota\n- Sesión corta de yoga (20 minutos): movilidad de caderas, columna, cuello\n- Respiración profunda (3 ciclos de 4x4x4)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el valor para continuar. – Winston Churchill"
+  },
+  {
+    "fecha": "Monday 14/07",
+    "semana": "Semana 5",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Haz lo que puedas, con lo que tengas, donde estés. – Theodore Roosevelt"
+  },
+  {
+    "fecha": "Tuesday 15/07",
+    "semana": "Semana 6",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de fuerza funcional de 45 min:\n\n**Fuerza tren inferior (30 min)**:\n- Sentadillas con peso corporal – 3x15\n- Zancadas alternas – 3x10 por pierna\n- Elevación de talones – 3x20\n- Step-up sobre banco – 3x10 por pierna\n\n**Core (15 min)**:\n- Plancha frontal – 3x30s\n- Plancha lateral – 2x30s por lado\n- Crunch con piernas arriba – 3x20\n- Bicicleta abdominal – 3x20\n\nEstiramiento: 5 minutos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No cuentes los días, haz que los días cuenten. – Muhammad Ali"
+  },
+  {
+    "fecha": "Wednesday 16/07",
+    "semana": "Semana 6",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Natación técnica, 1,000 m totales:\n\n- 200 m crawl suave\n- 4x50 m técnica de brazo con tabla\n- 4x50 m patada de crol con aletas (si disponible)\n- 4x25 m respiración bilateral\n- 200 m libre con buena técnica\n\nFinaliza con 5 min de estiramientos de hombros y espalda.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La disciplina es el puente entre metas y logros. – Jim Rohn"
+  },
+  {
+    "fecha": "Thursday 17/07",
+    "semana": "Semana 6",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No esperes. El tiempo nunca será justo. – Napoleon Hill"
+  },
+  {
+    "fecha": "Friday 18/07",
+    "semana": "Semana 6",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de yoga completa (45 minutos):\n\n- Saludos al sol (3 repeticiones)\n- Posturas de fuerza (guerrero I, II)\n- Equilibrio (árbol, media luna)\n- Flexibilidad (pinza, torsión sentada)\n- Respiración guiada y relajación (5 minutos)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La energía y la persistencia conquistan todas las cosas. – Benjamin Franklin"
+  },
+  {
+    "fecha": "Saturday 19/07",
+    "semana": "Semana 6",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Tirada larga de 13 km a ritmo controlado.\n\n- Inicia 1 km suave, luego mantener ritmo constante\n- Gel energético en el km 6 con agua\n- Último km: incrementa ritmo si hay energía\n- 10 min caminata ligera + estiramientos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Solo aquellos que se atreven a tener grandes fracasos terminan logrando grandes éxitos. – Robert F. Kennedy"
+  },
+  {
+    "fecha": "Sunday 20/07",
+    "semana": "Semana 6",
+    "actividad": "Descanso",
+    "detalles": "Descanso activo:\n\n- Caminata ligera de 30 minutos o paseo con mascota\n- Sesión corta de yoga (20 minutos): movilidad de caderas, columna, cuello\n- Respiración profunda (3 ciclos de 4x4x4)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello. – Charles Swindoll"
+  },
+  {
+    "fecha": "Monday 21/07",
+    "semana": "Semana 6",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el valor para continuar. – Winston Churchill"
+  },
+  {
+    "fecha": "Tuesday 22/07",
+    "semana": "Semana 7",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de fuerza funcional de 45 min:\n\n**Fuerza tren inferior (30 min)**:\n- Sentadillas con peso corporal – 3x15\n- Zancadas alternas – 3x10 por pierna\n- Elevación de talones – 3x20\n- Step-up sobre banco – 3x10 por pierna\n\n**Core (15 min)**:\n- Plancha frontal – 3x30s\n- Plancha lateral – 2x30s por lado\n- Crunch con piernas arriba – 3x20\n- Bicicleta abdominal – 3x20\n\nEstiramiento: 5 minutos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Haz lo que puedas, con lo que tengas, donde estés. – Theodore Roosevelt"
+  },
+  {
+    "fecha": "Wednesday 23/07",
+    "semana": "Semana 7",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Natación técnica, 1,000 m totales:\n\n- 200 m crawl suave\n- 4x50 m técnica de brazo con tabla\n- 4x50 m patada de crol con aletas (si disponible)\n- 4x25 m respiración bilateral\n- 200 m libre con buena técnica\n\nFinaliza con 5 min de estiramientos de hombros y espalda.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No cuentes los días, haz que los días cuenten. – Muhammad Ali"
+  },
+  {
+    "fecha": "Thursday 24/07",
+    "semana": "Semana 7",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La disciplina es el puente entre metas y logros. – Jim Rohn"
+  },
+  {
+    "fecha": "Friday 25/07",
+    "semana": "Semana 7",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de yoga completa (45 minutos):\n\n- Saludos al sol (3 repeticiones)\n- Posturas de fuerza (guerrero I, II)\n- Equilibrio (árbol, media luna)\n- Flexibilidad (pinza, torsión sentada)\n- Respiración guiada y relajación (5 minutos)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No esperes. El tiempo nunca será justo. – Napoleon Hill"
+  },
+  {
+    "fecha": "Saturday 26/07",
+    "semana": "Semana 7",
+    "actividad": "Descanso",
+    "detalles": "Tirada larga de 14 km a ritmo controlado.\n\n- Inicia 1 km suave, luego mantener ritmo constante\n- Gel energético en el km 7 con agua\n- Último km: incrementa ritmo si hay energía\n- 10 min caminata ligera + estiramientos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La energía y la persistencia conquistan todas las cosas. – Benjamin Franklin"
+  },
+  {
+    "fecha": "Sunday 27/07",
+    "semana": "Semana 7",
+    "actividad": "Descanso",
+    "detalles": "Descanso activo:\n\n- Caminata ligera de 30 minutos o paseo con mascota\n- Sesión corta de yoga (20 minutos): movilidad de caderas, columna, cuello\n- Respiración profunda (3 ciclos de 4x4x4)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Solo aquellos que se atreven a tener grandes fracasos terminan logrando grandes éxitos. – Robert F. Kennedy"
+  },
+  {
+    "fecha": "Monday 28/07",
+    "semana": "Semana 7",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La vida es 10% lo que me ocurre y 90% cómo reacciono a ello. – Charles Swindoll"
+  },
+  {
+    "fecha": "Tuesday 29/07",
+    "semana": "Semana 8",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de fuerza funcional de 45 min:\n\n**Fuerza tren inferior (30 min)**:\n- Sentadillas con peso corporal – 3x15\n- Zancadas alternas – 3x10 por pierna\n- Elevación de talones – 3x20\n- Step-up sobre banco – 3x10 por pierna\n\n**Core (15 min)**:\n- Plancha frontal – 3x30s\n- Plancha lateral – 2x30s por lado\n- Crunch con piernas arriba – 3x20\n- Bicicleta abdominal – 3x20\n\nEstiramiento: 5 minutos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el valor para continuar. – Winston Churchill"
+  },
+  {
+    "fecha": "Wednesday 30/07",
+    "semana": "Semana 8",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Natación técnica, 1,000 m totales:\n\n- 200 m crawl suave\n- 4x50 m técnica de brazo con tabla\n- 4x50 m patada de crol con aletas (si disponible)\n- 4x25 m respiración bilateral\n- 200 m libre con buena técnica\n\nFinaliza con 5 min de estiramientos de hombros y espalda.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "Haz lo que puedas, con lo que tengas, donde estés. – Theodore Roosevelt"
+  },
+  {
+    "fecha": "Thursday 31/07",
+    "semana": "Semana 8",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Corrida base de 6 km a ritmo de conversación. Finaliza con 3 progresivos de 100 m y:\n\n- 10 min estiramientos guiados (cuádriceps, isquiotibiales, sóleo, espalda baja).",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No cuentes los días, haz que los días cuenten. – Muhammad Ali"
+  },
+  {
+    "fecha": "Friday 01/08",
+    "semana": "Semana 8",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Sesión de yoga completa (45 minutos):\n\n- Saludos al sol (3 repeticiones)\n- Posturas de fuerza (guerrero I, II)\n- Equilibrio (árbol, media luna)\n- Flexibilidad (pinza, torsión sentada)\n- Respiración guiada y relajación (5 minutos)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La disciplina es el puente entre metas y logros. – Jim Rohn"
+  },
+  {
+    "fecha": "Saturday 02/08",
+    "semana": "Semana 8",
+    "actividad": "Entrenamiento físico",
+    "detalles": "Tirada larga de 15 km a ritmo controlado.\n\n- Inicia 1 km suave, luego mantener ritmo constante\n- Gel energético en el km 7 con agua\n- Último km: incrementa ritmo si hay energía\n- 10 min caminata ligera + estiramientos.",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "No esperes. El tiempo nunca será justo. – Napoleon Hill"
+  },
+  {
+    "fecha": "Sunday 03/08",
+    "semana": "Semana 8",
+    "actividad": "Descanso",
+    "detalles": "Descanso activo:\n\n- Caminata ligera de 30 minutos o paseo con mascota\n- Sesión corta de yoga (20 minutos): movilidad de caderas, columna, cuello\n- Respiración profunda (3 ciclos de 4x4x4)",
+    "nutricion": {
+      "desayuno": "Avena cocida con leche vegetal, plátano y nueces",
+      "comida": "Pollo o tofu con arroz integral, brócoli y aguacate",
+      "cena": "Sopa de lentejas con zanahoria + pan integral"
+    },
+    "cita": "La energía y la persistencia conquistan todas las cosas. – Benjamin Franklin"
+  }
+]
