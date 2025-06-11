@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Álbum de Fer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://apis.google.com/js/api.js"></script>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f0f4f8; }
+    button { padding: 10px 16px; margin: 5px; background: #2c3e50; color: white; border: none; border-radius: 6px; cursor: pointer; }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 1rem; }
+    .gallery img { width: 120px; height: 120px; object-fit: cover; border-radius: 8px; box-shadow: 0 0 4px rgba(0,0,0,0.2); }
+    .photo-box { position: relative; }
+    .delete-btn {
+      position: absolute; top: 4px; right: 4px; background: red; color: white;
+      border: none; border-radius: 50%; width: 20px; height: 20px;
+      font-size: 14px; line-height: 20px; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>📸 Álbum de Fer</h1>
+  <div id="auth-status">Conéctate con tu cuenta Google:</div>
+  <button id="auth-button" onclick="handleAuthClick()">Iniciar sesión con Google</button>
+  <button id="upload-button" style="display:none;" onclick="document.getElementById('file-input').click()">Subir foto</button>
+  <input type="file" id="file-input" accept="image/*" style="display:none;" />
+  <a href="index.html">🏠 Volver al inicio</a>
+  <div id="gallery" class="gallery"></div>
+
+  <script>
+    const CLIENT_ID = "23233073432-3tlfb0d6oueiu6fq13gn16p7lvn4c1r5.apps.googleusercontent.com";
+    const SCOPES = 'https://www.googleapis.com/auth/drive';
+
+    function handleClientLoad() {
+      gapi.load('client:auth2', initClient);
+    }
+
+    function initClient() {
+      gapi.client.init({
+        clientId: CLIENT_ID,
+        scope: SCOPES
+      }).then(() => {
+        if (gapi.auth2.getAuthInstance().isSignedIn.get()) {
+          onSignIn();
+        }
+      });
+    }
+
+    function handleAuthClick() {
+      gapi.auth2.getAuthInstance().signIn().then(onSignIn);
+    }
+
+    function onSignIn() {
+      document.getElementById('auth-status').innerText = "✅ Sesión iniciada con Google Drive";
+      document.getElementById('auth-button').style.display = "none";
+      document.getElementById('upload-button').style.display = "inline-block";
+      document.getElementById('file-input').onchange = uploadFile;
+      loadGallery();
+    }
+
+    async function uploadFile(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const metadata = {
+        'name': file.name,
+        'mimeType': file.type
+      };
+      const accessToken = gapi.auth.getToken().access_token;
+      const form = new FormData();
+      form.append('metadata', new Blob([JSON.stringify(metadata)], { type: 'application/json' }));
+      form.append('file', file);
+
+      const uploadResponse = await fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id', {
+        method: 'POST',
+        headers: new Headers({ 'Authorization': 'Bearer ' + accessToken }),
+        body: form
+      });
+      const fileData = await uploadResponse.json();
+
+      // Hacerla pública
+      await fetch(`https://www.googleapis.com/drive/v3/files/${fileData.id}/permissions`, {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Bearer ' + accessToken,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ role: "reader", type: "anyone" })
+      });
+
+      alert("✅ Foto subida y compartida públicamente.");
+      loadGallery();
+    }
+
+    function deleteFile(fileId) {
+      const accessToken = gapi.auth.getToken().access_token;
+      fetch('https://www.googleapis.com/drive/v3/files/' + fileId, {
+        method: 'DELETE',
+        headers: new Headers({
+          'Authorization': 'Bearer ' + accessToken
+        })
+      }).then(() => {
+        loadGallery();
+      });
+    }
+
+    function loadGallery() {
+      gapi.client.request({
+        'path': 'https://www.googleapis.com/drive/v3/files',
+        'method': 'GET',
+        'params': {
+          'pageSize': 50,
+          'fields': "files(id, name)",
+          'q': "mimeType contains 'image/' and trashed = false"
+        }
+      }).then(function(response) {
+        const gallery = document.getElementById('gallery');
+        gallery.innerHTML = '';
+        response.result.files.forEach(file => {
+          const div = document.createElement('div');
+          div.className = "photo-box";
+          div.innerHTML = `
+            <img src="https://drive.google.com/uc?export=view&id=${file.id}" />
+            <button class="delete-btn" onclick="deleteFile('${file.id}')">×</button>
+          `;
+          gallery.appendChild(div);
+        });
+      });
+    }
+
+    handleClientLoad();
+  </script>
+</body>
+</html>
